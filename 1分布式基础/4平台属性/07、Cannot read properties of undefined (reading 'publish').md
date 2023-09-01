@@ -54,7 +54,12 @@ props: {
 
 5-1、输入 npm install --save pubsub-js 安装依赖
 
-5-2、在 brand.vue 和 category-cascader.vue 里都导入 import PubSub from 'pubsub-js'
+5-2、使用下方代码在 main.js 中全局挂载
+
+```vue
+import PubSub from 'pubsub-js'
+Vue.prototype.PubSub = PubSub
+```
 
 5-3、在 brand.vue 中将 this.PubSub.publish("catPath", v); 改为 PubSub.publish("catPath", v); 来发布消息
 
@@ -71,3 +76,5 @@ mounted(){
 5-5、测试，发现可以正常使用
 
 6、个人更倾向于使用 this.$emit("update:catelogPath", v); 因为相关代码少，而且不需要取消订阅
+
+7、更正：看到 P84 发现说错了，发布商品页面的选择分类需要用到 PubSub 来接收 catalogId，因此不能注释掉
