@@ -68,3 +68,8 @@ public R saveInfo(@RequestBody SkuReductionTo reductionTo)
 ```
 
 6、开启两个模块，可以成功传输数据
+
+7、Feign调用流程
+7-1、构造请求函数，将对象转为json
+7-2、发送请求进行执行(执行成功会解码响应数据)
+7-3、执行请求会有重试机制
