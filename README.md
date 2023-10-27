@@ -48,4 +48,24 @@
 
 2、Feign 远程调用
 
+3、Jackson 格式化
+
 六、库存系统
+
+### 分布式高级
+
+一、Elasticsearch
+
+1、docker 部署 Elasticsearch、ik分词器
+
+二、性能与压力测试
+
+1、JMeter 的使用
+
+三、缓存
+
+1、Redis
+
+2、Redisson
+
+3、Spring Cache
