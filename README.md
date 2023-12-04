@@ -4,7 +4,7 @@
 
 一、基础配置
 
-1、配置 docker，使用 docker 安装 mysql 和 redis
+1、配置 docker，使用 docker 部署 mysql 和 redis
 
 2、配置 ren-ren 后端，逆向生成所有模块
 
