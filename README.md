@@ -54,18 +54,64 @@
 
 ### 分布式高级
 
-一、Elasticsearch
-
-1、docker 部署 Elasticsearch、ik分词器
-
-二、性能与压力测试
+一、性能与压力测试
 
 1、JMeter 的使用
 
-三、缓存
+二、缓存
 
 1、Redis
 
 2、Redisson
 
 3、Spring Cache
+
+三、检索服务
+
+1、docker 部署 Elasticsearch、ik分词器
+
+2、SpringBoot集成Elasticsearch8.6
+
+3、Thymeleaf
+
+四、商品详情
+
+1、线程池
+
+2、异步调用
+
+五、认证服务
+
+1、短信验证码
+
+2、注册
+
+3、Redis
+
+4、账号密码登录
+
+5、第三方登录
+
+6、OAuth2
+
+7、Spring Session
+
+六、购物车服务
+
+1、拦截器
+
+七、订单服务
+
+1、消息队列
+
+2、Feign丢失请求头
+
+3、幂等性
+
+4、分布式事务Seata
+
+5、延迟队列
+
+6、支付宝支付
+
+八、秒杀服务
